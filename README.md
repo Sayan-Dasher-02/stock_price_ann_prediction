@@ -34,10 +34,10 @@ pip install streamlit==1.38.0 tensorflow==2.17.0 yfinance==0.2.40 plotly==5.22.0
 ### **Step 4: Run App**
 ```bash
 cd stock_price_ann_prediction
-Streamlit run stock_price_prediction.py
+Streamlit run stock_price_prediction.py --port 6001
 ```
 
-**🎉 Opens:** `http://localhost:8501`
+**🎉 Opens:** `http://localhost:6001`
 
 ***
 
